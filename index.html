@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>83 Summer St. LLC</title>
+  <meta name="author" content="83 Summer St. LLC" />
+  <meta name="description" content="83 Summer St. LLC official website — SMS opt-in and rental support" />
+</head>
+<body>
+  <header>
+    <h1>83 Summer St. LLC</h1>
+    <p>83 Summer St. LLC</p>
+    <p>Registered business / Brand name: 83 Summer St. LLC</p>
+  </header>
+
+  <p>Welcome to the official website of <strong>83 Summer St. LLC</strong>.</p>
+
+  <h2>About 83 Summer St. LLC</h2>
+  <p>83 Summer St. LLC operates vacation rental and apartment rental customer-care communications, including SMS at (802) 727-7288.</p>
+
+  <h2>SMS Opt-In / Call-to-Action — 83 Summer St. LLC</h2>
+  <form action="#" method="get" id="sms-opt-in-form">
+    <p>
+      <label for="phone">Mobile phone number</label><br />
+      <input type="tel" id="phone" name="phone" placeholder="Mobile number" />
+    </p>
+    <p>
+      <input type="checkbox" id="sms_consent" name="sms_consent" value="yes" required />
+      <label for="sms_consent"><strong>I agree to receive recurring SMS text messages from 83 Summer St. LLC</strong> about my rental inquiry, booking, or tenancy (customer care / support). Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out. Reply HELP for help. Consent is not a condition of purchase.</label>
+    </p>
+    <p><button type="submit">Opt in to SMS from 83 Summer St. LLC</button></p>
+  </form>
+
+  <h2>Text-to-join — 83 Summer St. LLC</h2>
+  <p>Text <strong>(802) 727-7288</strong>. By texting this number, you expressly consent to receive recurring SMS text messages from <strong>83 Summer St. LLC</strong> about your rental inquiry, booking, or tenancy.</p>
+  <ul>
+    <li>Message frequency varies</li>
+    <li>Msg &amp; data rates may apply</li>
+    <li>Reply STOP to opt out</li>
+    <li>Reply HELP for help</li>
+    <li>Support: nick.monetta@gmail.com or (802) 727-7288</li>
+  </ul>
+  <p>83 Summer St. LLC does not sell or share SMS opt-in data or personal information with third parties for marketing purposes.</p>
+
+  <h2>Legal — 83 Summer St. LLC</h2>
+  <ul>
+    <li><a href="privacy.html">Privacy Policy — 83 Summer St. LLC</a></li>
+    <li><a href="terms.html">Terms and Conditions — 83 Summer St. LLC SMS Program</a></li>
+  </ul>
+
+  <footer>
+    <p>Copyright &copy; 83 Summer St. LLC. All rights reserved.</p>
+    <p>83 Summer St. LLC</p>
+    <p>Business name: 83 Summer St. LLC</p>
+  </footer>
+  <script>
+    document.getElementById('sms-opt-in-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!document.getElementById('sms_consent').checked) { alert('Please check the SMS consent box.'); return; }
+      alert('Thanks — 83 Summer St. LLC. Text (802) 727-7288. Reply STOP to opt out.');
+    });
+  </script>
+</body>
+</html>
